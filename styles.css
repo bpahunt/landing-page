@@ -41,7 +41,22 @@ p {
 
 .section2 {
     display: flex;
-    padding-left: 200px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 260px 100px 260px;
+}
+
+.section2-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-top: 30px;
+}
+
+.section2-child {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .section3 {
@@ -73,6 +88,12 @@ h1 {
     padding: 0;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
 ul {
     display: flex;
     gap: 16px;
@@ -96,6 +117,19 @@ button {
     height: 40px;
 }
 
-img {
+.section1-right img {
     width: 550px;
+}
+
+.section2-child img {
+    width: 165px;
+    border-radius: 16px;
+    border: 5px solid #3882F6;
+}
+
+.section2-child p {
+    margin-top: 10px;
+    width: 165px;
+    text-align: center;
+    color: #696d71;
 }
