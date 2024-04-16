@@ -36,7 +36,7 @@ p {
 }
 
 .section1-right {
-    flex: 1 1 0;
+    flex: 1 0 0;
 }
 
 .section2 {
@@ -61,7 +61,22 @@ p {
 
 .section3 {
     display: flex;
-    padding-left: 200px;
+    flex-direction: column;
+    padding: 120px 320px 100px 320px;
+    background-color: #E5E7EB;
+}
+
+.section3-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #696d71;
+}
+
+.section3-quotee {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .section4 {
