@@ -128,8 +128,8 @@ p {
 
 .footer {
     display: flex;
-    padding-left: 200px;
-    justify-content: center ;
+    justify-content: center;
+    padding: 40px 0px 40px 0px;
 }
 
 
