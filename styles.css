@@ -5,6 +5,7 @@ body {
 
 p {
     font-size: 18px;
+    margin: 0;
 }
 
 .header, .section1, .links, .footer, .section1-left, .section1-right {
@@ -33,10 +34,15 @@ p {
 .section1-left {
     flex: 1 1 0;
     flex-direction: column;
+    gap: 10px;
 }
 
 .section1-right {
     flex: 1 0 0;
+}
+
+.section1-right img {
+    width: 550px;
 }
 
 .section2 {
@@ -57,6 +63,19 @@ p {
     display: flex;
     flex-direction: column;
     align-content: center;
+}
+
+.section2-child img {
+    width: 165px;
+    border-radius: 16px;
+    border: 5px solid #3882F6;
+}
+
+.section2-child p {
+    margin-top: 10px;
+    width: 165px;
+    text-align: center;
+    color: #696d71;
 }
 
 .section3 {
@@ -81,11 +100,30 @@ p {
 
 .section4 {
     display: flex; 
-    padding-left: 200px;
+    justify-content: center; 
+    background-color: #3882F6;
+    margin: 90px 200px 90px 200px; 
+    border-radius: 8px;
+    gap: 150px;
+    padding: 50px;
 }
 
-.sign-up {
+.section4-signup {
     display: flex;
+    flex-direction: column; 
+    color: #F9FAF8;
+    padding: ;
+}
+
+.section4-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+}
+
+.section4-button button {
+    border-color: #F9FAF8;
 }
 
 .footer {
@@ -107,6 +145,13 @@ h2 {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
 }
 
 ul {
@@ -132,19 +177,7 @@ button {
     height: 40px;
 }
 
-.section1-right img {
-    width: 550px;
-}
 
-.section2-child img {
-    width: 165px;
-    border-radius: 16px;
-    border: 5px solid #3882F6;
-}
 
-.section2-child p {
-    margin-top: 10px;
-    width: 165px;
-    text-align: center;
-    color: #696d71;
-}
+
+
